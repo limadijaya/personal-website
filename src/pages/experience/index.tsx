@@ -9,6 +9,6 @@ export default function AboutMe() {
   //   <div className="card-container">
   //       This is About Me
   // </div>
-    <div>This is About Me</div>
+    <div>Experience</div>
   );
 }

@@ -1,5 +1,7 @@
-// Successful Referenct
+// Successful Reference
 // import Navbar from "../../component/navbar";
+
+import Link from "next/link";
 
 export default function Header() {
     return (
@@ -17,8 +19,27 @@ export default function Header() {
         >
             <div>Logo</div>
             <div className="text-black" >
-                <a href="../../../pages/about">About Me </a>
-                | Skills | Portfolio | Experience | Testimonial | Contact
+            
+            <Link href={"/about"}>
+                About Me |
+            </Link>
+            <Link href={"/skills"}>
+                Skills |
+            </Link>
+            <Link href={"/portfolio"}>
+                Portfolio |
+            </Link>
+            <Link href={"/experience"}>
+                Experience | 
+            </Link>
+            <Link href={"/testimonial"}>
+                Testimonial |
+            </Link>
+            <Link href={"/contact"}>
+                Contact |
+            </Link>
+            {/* <a href="../../../pages/about"> About Me </a> */}
+            {/* | Skills | Portfolio | Experience | Testimonial | Contact */}
             </div>
 
         </div>
