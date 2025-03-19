@@ -6,9 +6,9 @@ import "../home/home.style.css";
 
 export default function AboutMe() {
     return (
-  //   <div className="card-container">
-  //       This is About Me
-  // </div>
-    <div>Contact Me : limasuhendra@gmail.com</div>
+    <div className="card-container">
+        Contact Me : limasuhendra@gmail.com
+  </div>
+    // <div>Contact Me : limasuhendra@gmail.com</div>
   );
 }
